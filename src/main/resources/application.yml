@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /quipux
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: pruebatecnica
+    password: quipux
+    driverClassName: org.postgresql.Driver
